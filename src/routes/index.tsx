@@ -15,9 +15,10 @@ import {
   Star,
 } from "lucide-react";
 
-import heroSalon from "@/assets/hero-salon.jpg";
+import heroSalon from "@/assets/14.jpg";
 import serviceNails from "@/assets/service-nails.jpg";
 import serviceHair from "@/assets/service-hair.jpg";
+import serviceBeauty from "@/assets/service-beauty.jpg";
 import serviceSpa from "@/assets/service-spa.jpg";
 
 export const Route = createFileRoute("/")({
@@ -61,7 +62,7 @@ const services = [
   },
   {
     icon: Sparkles,
-    image: serviceHair,
+    image: serviceBeauty,
     title: "Beauty & Skin",
     description:
       "Facials, clean-ups, waxing, threading and bridal packages tailored to your skin.",
